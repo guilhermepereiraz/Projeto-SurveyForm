@@ -3,6 +3,7 @@
 * {
     padding: 0px;
     margin: 0px;
+
 }
 
 /* cabecalho */
@@ -38,12 +39,14 @@ header {
 
 div  {
     padding: 100px;
+    font-size: 20px;
 }
 
 /* corpo */
 
 body {
     background-image: url(pessoas-trabalhando-juntas-ti-scaled.jpeg);
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -56,6 +59,60 @@ div {
     text-align: left
 
 }
+
+input:hover {
+    background-color: rgba(218, 216, 216, 0.829);
+}
+
+.inpteste {
+    padding: 10px 400px 10px 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.inpteste3 {
+    padding: 10px 426px 10px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.inpteste4 {
+    padding: 10px 426px 10px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+#cOpt1 {
+    margin: 6px;  
+}
+
+#butao {
+    background-color: rgba(60, 214, 60, 0.616);
+    color: white;
+    padding: 10px 250px 10px 250px;
+    margin-top: 20px;
+  
+}
+
+textarea {
+    padding: 10px 250px 10px 38px;
+    margin-top: 25px;
+
+}
+
+textarea:hover {
+    background-color: rgba(218, 216, 216, 0.829);
+
+
+}
+
+
+
+
+
 
 
 
