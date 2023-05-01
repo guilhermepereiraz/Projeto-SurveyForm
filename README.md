@@ -3,6 +3,6 @@
 
  Objetivo principal:  https://codepen.io/freeCodeCamp/full/VPaoNP
 
- Projeto densenvolvido com meus conhecimentos: https://guilhermepereiraz.github.io/Projeto-SurveyForm/
+ Projeto densenvolvido com meus conhecimentos: 
 
- Projeto desenvolvido e modificado com meus conhecimentos: 
+ Projeto desenvolvido e modificado com meus conhecimentos: https://guilhermepereiraz.github.io/Projeto-SurveyForm/
