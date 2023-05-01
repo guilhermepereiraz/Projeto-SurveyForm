@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+/* cabecalho */
+
+.titulo1 {
+    padding-top: 100px;
+    background-color: rgba(69, 52, 153, 0.788);
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+.titulo2 {
+    padding-top: 15px;
+    background-color: rgba(69, 52, 153, 0.788);
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 23px;
+    
+}
+
+header {
+    padding: 50px;
+    margin: -70px 280px 0px 500px;
+    color: white;
+    background-color: rgba(24, 18, 53, 0.788);
+    border-radius: 5px;
+    box-shadow: 1px 1px 30px 2px black;
+ 
+}
+
+c
+
+
+
+
+
+/* corpo */
+
+
+
+.nomeprin{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left
+
+}
+
+input:hover {
+    background-color: rgba(243, 240, 240, 0.932);
+    box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.527);
+    transition: 0.5s;
+}
+
+input::placeholder {
+    font-size: 20px;
+    color: gray;
+}
+
+
+
+.inpteste {
+    padding: 10px 500px 10px 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.inpteste3 {
+    padding: 10px 526px 10px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.inpteste4 {
+    padding: 10px 545px 10px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.arrumacao {
+    padding-bottom: 10px;
+    margin-top: -40px;
+
+}
+
+.arrumacao2 {
+  margin-top: -10px;
+
+}
+
+#cOpt1 {
+    margin: 9px;
+
+}
+
+#butao {
+    background-color: rgba(60, 214, 60, 0.616);
+    color: white;
+    padding: 10px 308px 10px 308px;
+    margin-top: 20px;
+  
+}
+
+button:hover {
+   background-color: rgba(12, 226, 12, 0.616);
+   text-decoration: underline;
+   color: black;
+}
+
+.padd {
+    padding-bottom: 10px;
+    margin-top: -40px;
+}
+
+.utt{
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+#arrumar {
+    margin: 0px;
+    padding: 0px;
+}
+
+textarea {
+    padding: 10px 250px 10px 38px;
+    margin-top: 25px;
+
+}
+
+textarea:hover {
+    background-color: rgba(218, 216, 216, 0.829);
+    transition: 0.5s;
+
+
+}
+
+
+
+
+
+
+
+
+

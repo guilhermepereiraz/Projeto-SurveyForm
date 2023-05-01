@@ -4,17 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Survey Form</title>
 </head>
+<body>
 
-<body> 
-     
-          <h1 class="titulo1">freeCode Camp Survey Form</h1>
-         <h3 class="titulo2">Thank you for taking the time to help us improve the platform</h3>
-        
-    <main>
-
+    <h1 class="titulo1">freeCode Camp Survey Form</h1>
+    <h3 class="titulo2">Thank you for taking the time to help us improve the platform</h3>
+<div class="cor">
+    <div>
+        <header>
         <label for="name" class="nomeprin">Name</label> <br>
         <input type="text" placeholder="Enter your name" class="inpteste"><br>
 
@@ -25,42 +24,41 @@
         <input type="number" class="inpteste" placeholder="Age"> <br>
 
         <label for="cEst">Which option best describes your current role?</label> <br>
-
-       <select name="tEst" id="cEst" class="select2">
-         <optgroup label="Select current role">
+       <select name="tEst" id="cEst" class="inpteste3">
+        <optgroup label="Select current role">
             <option value="Student">Student</option>
             <option value="Full Time Job">Full Time Job</option>
             <option value="Full Time Leaner">Full Time Leaner</option>
             <option value="Prefer not to say">Prefer not to say</option>
             <option value="Other">Other</option>
-          </optgroup>
+        </optgroup>
         </select><br>
       
-
+      <div class="arrumacao">
         <label for="recomnd">Would you recommend freeCodeCamp to a friend?</label> <br>
-
+    </div>
         <input type="radio" name="tOpt" id="cOpt1" checked> Definitely <br>
         <input type="radio" name="tOpt" id="cOpt1"> Maybe <br>
         <input type="radio" name="tOpt" id="cOpt1"> Not sure <br>
 
-
+<div class="arrumacao2">
      <label for="cEst" id="inpts2">What is your favorite feature of freeCodeCamp?</label> <br>
-
-     <select name="tEst" class="select1">
+    </div>
+     <select name="tEst" id="cEst" class="inpteste4">
         <optgroup label="Select an option">
-            <option value="Challenge">Challenge</option>
+            <option value="Challenges">Challenges</option>
             <option value="Projects">Projects</option>
             <option value="Comunity">Comunity</option>
             <option value="Open Source">Open Source</option>
         </optgroup>
-    </select> <br>
-
+        </select>
+    <div class="padd">
         <label for="pnuti" id="mts">What would you like to see improved? <h6>(Check all that apply)</h6> </label> 
-
+    </div>
         <input type="checkbox"> <label for="op1">Front-end Projects</label> <br>
         <input type="checkbox"> <label for="op2">Back-end Projects</label> <br>
         <input type="checkbox"> <label for="op3">Data Visualization</label> <br>
-        <input type="checkbox"> <label for="op4">Challenge</label> <br>
+        <input type="checkbox"> <label for="op4">Challenges</label> <br>
         <input type="checkbox"> <label for="op5">Open Source Community</label> <br>
         <input type="checkbox"> <label for="op6">Gitter help rooms</label> <br>
         <input type="checkbox"> <label for="op7">Videos</label> <br>
@@ -69,16 +67,17 @@
         <input type="checkbox"> <label for="op10">Forum</label> <br>
         <input type="checkbox"> <label for="op11" id="arrumar">Additional Courses</label> <br>
  
-      <div class="vmarrum">
+     <div class="utt">
         <label for="cxtext">Any comments or suggestions?</label> <br>
-      </div>
-
+    </div>
         <textarea name="" id="" cols="45" rows="6" placeholder="Enter you comment here.."></textarea> <br>
 
+          
         <button type="button" id="butao">Submit</button>
-    </main>
-
-   
+    </header>
+    </div>
+</div>
+    
+    
 </body>
-
 </html>
