@@ -54,27 +54,46 @@ h3 {
  }
 
 .select2 {
-    padding: 10px 436px 10px 10px;
+    padding: 10px 433px 10px 10px;
     border-radius: 5px;
     margin-top: 5px;
     margin-bottom: 25px;
     font-family: 'Passion One', cursive;
+    font-weight: lighter;
+    color: rgba(128, 128, 128, 0.795);
     font-size: 20px;
 }
 
 
 .select1 {
-    padding: 10px 465px 10px 10px;
+    padding: 10px 460px 10px 10px;
     border-radius: 5px;
     margin-top: 5px;
     margin-bottom: 25px;
     font-family: 'Passion One', cursive;
+    font-weight: lighter;
+    color: rgba(128, 128, 128, 0.795);
     font-size: 20px;
+}
+
+input {
+    font-family: arial;
+    font-weight: 600;
+    font-size: 15px;
+    color: black
+
 }
 
 
 .inpteste {
-    padding: 15px 468px 15px 10px;
+    padding: 15px 0px 15px 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.inpteste2 {
+    padding: 15px 524px 15px 10px;
     border-radius: 5px;
     margin-top: 5px;
     margin-bottom: 25px;
@@ -98,15 +117,15 @@ h3 {
 
 
 input:hover {
-    background-color: rgba(243, 240, 240, 0.932);
-    box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.527);
+    box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 0.671);
     transition: 0.5s;
 }
 
 input::placeholder {
     font-family: 'Passion One', cursive;
     font-size: 20px;
-    color: gray;
+    font-weight: lighter;
+    color: rgba(128, 128, 128, 0.795);
 }
 
 /* "pé" */
@@ -119,14 +138,17 @@ input::placeholder {
 }
 
 textarea {
-    padding: 10px 250px 10px 38px;
+    padding: 10px 0px 10px 10px;
     margin-top: 10px;
+    font-size: 15px;
+    font-weight: lighter;
+    color: black;
 
 }
 
 textarea:hover {
-    background-color: rgba(218, 216, 216, 0.829);
     transition: 0.5s;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.507);
 
 
 }
@@ -135,13 +157,12 @@ button {
     background-color: rgba(35, 221, 144, 0.781);
     font-size: 20px;
     color: white;
-    padding: 15px 262px;
+    padding: 15px 273px;
     margin-top: 30px;
 }
 
 button:hover {
     transition: 1s;
-
     background-color: rgba(62, 223, 13, 0.678);
 }
 
